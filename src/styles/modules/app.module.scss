@@ -1,0 +1,33 @@
+@import "../_mixins.scss";
+
+.app__wrapper {
+  max-width: 750px;
+  width: 100%;
+  margin: 0 auto;
+}
+.appHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 60px;
+}
+.content__wrapper {
+  background-color: pink;
+  padding: 2rem;
+  border-radius: 10px;
+  @include smallDeviceSize {
+    padding: 1rem;
+  }
+}
+.emptyText {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: black;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  background-color: gray;
+  width: max-content;
+  height: auto;
+}

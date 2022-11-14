@@ -1,0 +1,30 @@
+.button {
+  display: inline-block;
+  height: auto;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: 300;
+  font-size: 1.4rem;
+  text-decoration: none;
+  cursor: pointer;
+  overflow: hidden;
+  &__select {
+    color: white;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    padding: 1rem;
+    border: none;
+    background-color: lightcoral;
+
+    width: 150px;
+    cursor: pointer;
+  }
+}
+.button--primary {
+  background-color: lightcoral;
+  color: white;
+}
+.button--secondary {
+  background-color: crimson;
+  color: white;
+}
